@@ -23,7 +23,7 @@ const HtmlCssJs: React.FC = () => {
             `);
         }, 250);
         return () => clearTimeout(timeout)
-    }, [html, css, js]);
+    }, [htmlCode, cssCode, js]);
 
     return (
         <>
