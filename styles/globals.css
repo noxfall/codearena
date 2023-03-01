@@ -1,5 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.editor-title {
+  background-color: #282c34;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: .6rem;
+  font-size: .85rem;
+  opacity: .65;
 }
